@@ -1,0 +1,8 @@
+How the system.out is working or getting resources?
+There is a package called java.lang which is been used implicitly by Java
+The 'system' class within java.lang gives access to resources within java.lang
+
+system.out is directly connected to terminal and the system comes from
+Import java.lang.System
+
+The fact is we are sending data from code to terminal through the system class

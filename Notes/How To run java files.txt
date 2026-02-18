@@ -1,0 +1,15 @@
+How To run java files
+🧠 Very Important Rule
+Compilation:
+javac FileName.java
+
+Execution:
+java ClassNameContainingMain
+
+
+
+print()
+
+👉 Prints output without moving to a new line
+
+meanwhile println()  -> Prints output and moves the cursor to the next line

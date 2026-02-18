@@ -1,0 +1,19 @@
+Data types in java
+1)Byte - 1 byte (-128 to 127) -> Java supports signed numbers(Both positive and negative)
+2)Short - 2 bytes
+3)Int - 4 bytes
+4)Long - 8 bytes
+Used for very large numbers
+long population = 8000000000L;
+⚠️ Must end with L
+5)Float - 4 bytes
+6)Double - 8 bytes
+7)char- 2 bytes
+8)Boolean - 1 bit
+
+
+Non Primitive
+String
+Arrays
+Classes
+Interfaces

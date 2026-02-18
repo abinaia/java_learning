@@ -1,0 +1,50 @@
+Use of public and static
+1️⃣ public
+
+public is an access modifier.
+
+It determines who can use this method.
+
+Meaning:
+
+public → any class in your program can call this method
+
+Other options:
+
+Modifier	Meaning
+private	Only inside the same class
+protected	Same package + subclasses
+default (no keyword)	Only inside same package
+
+💡 Example:
+
+public class Calculator {
+    public static int addNumbers(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+
+Another class can now call:
+
+int sum = Calculator.addNumbers(1,2,3);
+
+
+If it were private, the other class cannot use it.
+
+2️⃣ static
+
+static means this method belongs to the class itself, not an object.
+
+Normally, to call a method, you need an object:
+
+Calculator calc = new Calculator();
+int sum = calc.addNumbers(1,2,3); // if method is non-static
+
+
+But if you declare static, you can call it directly using the class name:
+
+int sum = Calculator.addNumbers(1,2,3);
+
+
+✅ No object needed
